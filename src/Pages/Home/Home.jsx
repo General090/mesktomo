@@ -1,6 +1,9 @@
 import React from "react";
-import Layout from "../../layout";
+import Layout from "../../Components/layout";
 import "./Home.css";
+import AboutUs from "./AboutUs"
+import Industries from "./Industries"
+import ChooseUs from "./ChooseUs"
 
 const Home = () => {
   return (
@@ -22,6 +25,10 @@ const Home = () => {
           </button>
         </div>
       </div>
+
+      <AboutUs />
+      <Industries />
+      <ChooseUs />
     </Layout>
   );
 };
