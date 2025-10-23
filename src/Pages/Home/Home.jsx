@@ -4,6 +4,7 @@ import "./Home.css";
 import AboutUs from "./AboutUs"
 import Industries from "./Industries"
 import ChooseUs from "./ChooseUs"
+import Testimonials from './Testimonials'
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <AboutUs />
       <Industries />
       <ChooseUs />
+      <Testimonials />
     </Layout>
   );
 };
